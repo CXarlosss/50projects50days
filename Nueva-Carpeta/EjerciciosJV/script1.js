@@ -47,4 +47,18 @@ consumo = kilometro
 
 console.log("Consume: "+ consumo +"litros/Km")
 
- 
+/* Este ejercicio es un clasico si lo haces a la primera y sin tardar entiendes las variables puedes estar seguro
+AL final la primera variable debe tener el valor de la segunda y la segunda el valor de la primera,No vale usar arrays ni asignacion multiple*/
+/* varUno vale 10 varDos vale 30
+Al final 
+varUno vale 30 y varDos vale 10 */
+var varUno = 10; // Declaramos la variable 'varUno' y le asignamos el valor 10.
+var varDos = 30; // Declaramos la variable 'varDos' y le asignamos el valor 30.
+console.log("varUno es " + varUno); // Mostramos en la consola el valor actual de 'varUno', que es 10.
+console.log("varDos es " + varDos); // Mostramos en la consola el valor actual de 'varDos', que es 30.
+var aux; // Declaramos una variable auxiliar llamada 'aux'. Por ahora no tiene valor, por lo que su valor es 'undefined'.
+aux = varUno; // Asignamos a 'aux' el valor de 'varUno', que es 10. Ahora 'aux' = 10.
+varUno = varDos// Asignamos a 'varUno' el valor de 'varDos', que es 30. Ahora 'varUno' = 30.;
+varDos = aux; // Asignamos a 'varDos' el valor de 'aux', que es 10. Ahora 'varDos' = 10.
+console.log("varUno es " + varUno); // Mostramos en la consola el nuevo valor de 'varUno', que ahora es 30.
+console.log("varDos es " + varDos); // Mostramos en la consola el nuevo valor de 'varDos', que ahora es 10.
